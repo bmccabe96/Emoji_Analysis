@@ -127,3 +127,26 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*/.ipynb_checkpoints/*
+
+# config file
+/Scripts/config.py
+
+# csv or data files
+*.csv 
+*.pickle
+
+/.idea/*
