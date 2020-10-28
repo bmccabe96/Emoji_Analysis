@@ -14,8 +14,14 @@ tweet_searches = [
     # 'music', 'vote'
     
     # this round of data gathering was shooting for some more negative sentiments...
-    'coronavirus', 'war', 'racism', 'cancer', 'sad', 'angry', 'fear', 'scary', 'trump', '2020', 'global warming',
-    'fires', 'evil', 'guns', 'death'
+    # 'coronavirus', 'war', 'racism', 'cancer', 'sad', 'angry', 'fear', 'scary', 'trump', '2020', 'global warming',
+    # 'fires', 'evil', 'guns', 'death', 'news'
+
+    'election day', 'winter is coming', 'apple picking', 'governors island', 'slides', 'ireland', 'bluelight',
+    'sweater weather', 'cold', 'philadelphia', 'portland', 'black lives matter', 'all lives matter', 'blue lives matter',
+    'police', 'capitalism', 'wisconsin', 'abuse', 'cheating', 'putin', 'riots', 'burning', 'iphone', 'white', 'gyms',
+    'halloween', 'costumes', 'vampires', 'netflix', 'fungi', 'bezos', 'amazon', 'privacy', 'social dilemma',
+    'congress', 'justice', 'data'
 ]
 
 for search in tweet_searches:
