@@ -72,6 +72,9 @@ try:
     except twython.exceptions.TwythonRateLimitError as error:
         print("Ran into rate error, continuing after 15 minute sleep")
 
+    except RuntimeError as error:
+        print("Runtime error...")
+
 
 except mysql.connector.Error as error:
     print("Failed to insert record into Laptop table {}".format(error))

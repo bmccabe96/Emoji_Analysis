@@ -8,20 +8,21 @@ tweet_searches = [
     # 'covid19', 'facebook', 'ironman', 'giants', 'ronaldo', 'rudy', 'borat', 'guns', 'blm', 'surfing', 'tennis', 'amd',
     # 'esports', 'google', 'joker', 'vapes', 'alcohol', 'drugs', 'cartel', 'russia', 'north korea', 'dogs', 'cats',
     # 'computers', 'stocks', 'wallstreetbets', 'reddit', 'memes', 'emojis', 'college', 'liberals', 'conservatives',
-    # 'usa', 'brexit'
-
+    # 'usa', 'brexit', 'global warming',# 'fires', 'evil', 'guns', 'death', 'news' # 'bluelight',
     # 'dez bryant', 'cyberpunk', 'fires', 'nascar', 'starlink', 'liverpool', 'msft', 'harry styles', 'seahawks',
-    # 'music', 'vote'
-    
-    # this round of data gathering was shooting for some more negative sentiments...
-    # 'coronavirus', 'war', 'racism', 'cancer', 'sad', 'angry', 'fear', 'scary', 'trump', '2020', 'global warming',
-    # 'fires', 'evil', 'guns', 'death', 'news'
+    # 'music', 'vote' # 'coronavirus', 'war', 'racism', 'cancer', 'sad', 'angry', 'fear', 'scary', 'trump', '2020',
+    # 'sweater weather', 'cold', 'philadelphia', 'portland', 'black lives matter', 'all lives matter', 'blue lives matter',
+    # 'police', 'capitalism', 'wisconsin', 'abuse', 'cheating', 'putin', 'riots', 'burning', 'iphone', 'white', 'gyms',
+    # 'halloween', 'costumes', 'vampires', 'netflix', 'fungi', 'bezos', 'amazon', 'privacy', 'social dilemma',
+    # 'congress', 'justice', 'data', 'Trending', 'Scary', 'Horror', 'Gangs', 'Blood', 'sickness', 'bullying',
+    # 'shooting', 'college', 'censor', 'data', 'senator', 'president', 'racism'
 
-    'election day', 'winter is coming', 'apple picking', 'governors island', 'slides', 'ireland', 'bluelight',
-    'sweater weather', 'cold', 'philadelphia', 'portland', 'black lives matter', 'all lives matter', 'blue lives matter',
-    'police', 'capitalism', 'wisconsin', 'abuse', 'cheating', 'putin', 'riots', 'burning', 'iphone', 'white', 'gyms',
-    'halloween', 'costumes', 'vampires', 'netflix', 'fungi', 'bezos', 'amazon', 'privacy', 'social dilemma',
-    'congress', 'justice', 'data'
+    'news', 'usa', 'fun', 'video', 'youtube', 'hulu', 'invest', 'music', 'rap', 'comedy', 'reviews', 'water',
+    'winter', 'beach', 'china', 'asia', 'natural gas', 'gem', 'moon', 'space', 'monster', 'sufing', 'cheese', 'europe',
+    'france', 
+
+    #'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+    #'v', 'w', 'x', 'y', 'z'
 ]
 
 for search in tweet_searches:
