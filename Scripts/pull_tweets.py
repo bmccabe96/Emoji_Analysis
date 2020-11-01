@@ -28,7 +28,7 @@ def store_tweet(tweet, conn, curs):
     """
     to_add = [tweet['text']]
     insert_query = """
-                    INSERT IGNORE INTO Tweets 
+                    INSERT IGNORE INTO Election_Tweets 
                     VALUES (DEFAULT, %s)
                     """
     curs.execute(insert_query, to_add)
