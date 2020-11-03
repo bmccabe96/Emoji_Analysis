@@ -1,7 +1,6 @@
 import os
 import time
 
-# Note, keeping track of all the searches I've done over the days I gathered data
 # FYI -- Every 4 search topics takes a little over an hour to complete
 tweet_searches = [
     'election', 'trump', 'biden', 'vote', 'president','election', 'trump', 'biden', 'vote', 'president',
