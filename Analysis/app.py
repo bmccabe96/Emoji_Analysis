@@ -14,8 +14,8 @@ from sklearn.preprocessing import MinMaxScaler
 import re
 import string
 from nltk.corpus import stopwords
-seed=42
 import streamlit as st
+seed=42
 
 
 normalizer = pd.read_pickle('normalizer.pickle')
@@ -160,6 +160,6 @@ try:
     data = pd.DataFrame(data, index=[0])
     train_vec = pipe.transform(data)
     pred = model.predict(train_vec)[0]
-    st.write(f"I am guessing your tweet can represented by this: {pred}")
+    st.write(f"I am guessing your tweet can represented with this: {pred}")
 except:
     pass
