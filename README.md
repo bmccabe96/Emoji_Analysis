@@ -36,6 +36,7 @@ This project, due to time and data constraints, specifically picked out election
 
 ### Modeling
  * Addressed class imbalance with appropriate class weights in one notebook, and resampling methods in another
+ * Baseline dummy classifier score of 24% to evaluate model results against
  * Logistic Regression, Support Vector Machine, Random Forest, Multinomial Bayes, Bernoulli Bayes, Passive Aggressive Classifier, XGBoost, Voting Classifier
  * **Best Model: XGBoost** with an accuracy score of roughly 80% and an F1-Score of 79%
 
