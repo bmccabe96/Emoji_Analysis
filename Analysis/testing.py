@@ -157,9 +157,18 @@ try:
     data['capitalization'] = capital_percentage(data['tweet'])
     data['profanity'] = check_profanity(data['tweet'])
     data['subjectivity'] = get_subjectivity(data['tweet'])
+    print(data)
     data = pd.DataFrame(data, index=[0])
     train_vec = pipe.transform(data)
     pred = model.predict(train_vec)[0]
+    probs = model.predict_proba(train_vec)
+    print(probs)
+    print(model.classes_)
     st.write(f"I am guessing your tweet can represented with this: {pred}")
+    st.write(f"Probability of {model.classes_[0]}: {probs[0][0]}")
+    st.write(f"Probability of {model.classes_[1]}: {probs[0][1]}")
+    st.write(f"Probability of {model.classes_[2]}: {probs[0][2]}")
+    st.write(f"Probability of {model.classes_[3]}: {probs[0][3]}")
+
 except:
     pass
