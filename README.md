@@ -54,7 +54,7 @@ This project, due to time and data constraints, specifically picked out election
  * Add a political leaning feature to help address the different lens of emotions 
  * Improve the simple app I created, shown below, and possibly host in online
  
-![Image](pics/i_might_cry.png?raw=true) 
+![Image](pics/app_cry.png?raw=true) 
 
 ## Sources
  * Instagram's semantic map https://allthingslinguistic.com/post/124609017512/emojineering-part-1-machine-learning-for-emoji
