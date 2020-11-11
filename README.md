@@ -9,7 +9,7 @@ The usage of certain emojis in social media tells a strong story regarding the e
 This project, due to time and data constraints, specifically picked out election related tweets, since I believed tweets on the election would likely evoke strong emotions. Assuming the trained model has good results, this could be highly useful for campaign managers to get emotional analysis regarding an election. The labeling of data is a very important task in the world of data analytics and data science, and to be able to appropriately classify tweets into emotions would be very useful to campaign managers (and other organizations too, assuming this model eventually expands outside the realm of election related tweets).
 
 ## Items of Note
- * **Analysis/**: Has notebooks detailing EDA, modeling, and initial "app". Analysis of results are discussed in respective notebooks.
+ * **Analysis/**: Has notebooks detailing EDA, modeling, and initial "app". Analysis of results are discussed in respective notebooks. Primary modeling notebook is for classweight balanced
  * **pics/**: All illustrations
  * **Scripts/**: Data gathering scripts
 
