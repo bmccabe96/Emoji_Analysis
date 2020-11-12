@@ -59,7 +59,7 @@ This project, due to time and data constraints, specifically picked out election
 
 ## Sources
  * Instagram's semantic map https://allthingslinguistic.com/post/124609017512/emojineering-part-1-machine-learning-for-emoji
- * Info obtained regarding Paul Ekmsn https://kth.diva-portal.org/smash/get/diva2:927073/FULLTEXT01.pdf
+ * Info obtained regarding Paul Ekman https://kth.diva-portal.org/smash/get/diva2:927073/FULLTEXT01.pdf
  * Streamlit to create simple GUI
 
 
