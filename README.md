@@ -12,6 +12,7 @@ This project, due to time and data constraints, specifically picked out election
  * **Analysis/**: Has notebooks detailing EDA, modeling, and initial "app". Analysis of results are discussed in respective notebooks. Primary modeling notebook is for classweight balanced
  * **pics/**: All illustrations
  * **Scripts/**: Data gathering scripts
+ * **Slides**:   [Link to Google Slides for Project](https://docs.google.com/presentation/d/1pM4ITHLrABgTZcKvbrvEAm5X29nvGEyrbAs2gSYgbSM/edit#slide=id.p)
 
 ## Procedure
 
